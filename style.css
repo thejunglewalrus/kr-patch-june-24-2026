@@ -315,6 +315,17 @@ td ul { margin: 0; padding-left: 18px; }
 }
 .fig-overlay .ov.accent { color: var(--accent); }
 
+/* Buff / nerf color-coding in the class balance section */
+.buff { color: #5fcf80; font-weight: 600; }
+.nerf { color: #ff7b72; font-weight: 600; }
+.balance-legend {
+  font-size: 13.5px;
+  color: var(--muted);
+  margin: 0 0 6px;
+}
+.balance-legend .buff,
+.balance-legend .nerf { padding: 0 2px; }
+
 /* AI-generated translation disclaimer banner */
 .ai-disclaimer {
   background: rgba(255, 184, 107, 0.08);
