@@ -315,6 +315,19 @@ td ul { margin: 0; padding-left: 18px; }
 }
 .fig-overlay .ov.accent { color: var(--accent); }
 
+/* AI-generated translation disclaimer banner */
+.ai-disclaimer {
+  background: rgba(255, 184, 107, 0.08);
+  border: 1px solid rgba(255, 184, 107, 0.35);
+  border-radius: 8px;
+  padding: 11px 16px;
+  margin: 0 0 20px;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.ai-disclaimer strong { color: var(--accent); }
+
 /* Collapsible table of contents */
 details.toc {
   background: var(--quote);
